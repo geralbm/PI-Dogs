@@ -1,0 +1,60 @@
+body {
+    background-image: url('./img/principal4.jpg');
+    background-size:cover;
+    
+}
+
+
+.App {
+  text-align: center;
+  background-color: #926482;
+  color: white;
+  
+  
+} 
+
+.App-header {
+  background-color: #065711;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(28, 163, 62);
+}
+
+.Titulo{
+    text-align: center;
+    background-color: #926482;
+    color: rgb(234, 235, 210);
+    margin: 0%;
+    position:relative;
+    padding: 0 1rem;
+    
+    
+    /* width:100%;
+    height: auto; */
+    
+    
+}
+
+.App-link {
+  color: #61dafb;
+} 
+
+.btn {
+    width: 6vw;
+    height: 4vh;
+    border-radius: 0.3rem;
+    background-color: rgb(122, 21, 109);
+    border:0cqmax;
+    cursor: pointer;
+    color: rgb(234, 235, 210);
+}
+
+.btn:hover{
+    width: 7vw;
+    height: 5vh;
+    transition: 0.4s;
+}
