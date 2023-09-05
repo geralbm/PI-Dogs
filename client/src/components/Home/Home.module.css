@@ -5,25 +5,28 @@
 } */
 
 .contenedor{
-    /* width: 40vh;
-    height: 8vh;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; */
-    background-image: url('../img/NavBar2.png');
-    height: 100vh;
-    justify-content: space-around;
-  align-items: center;
-    
-  }
+  /* width: 40vh;
+  height: 8vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  background-image: url('../img/NavBar2.png');
+  height: 100vh;
+  justify-content: space-around;
+align-items: center;
+  
+}
   
 .Titulo{
-    text-align: center;
-    background-color: #926482;
+   align-items:center;
+   text-align: center;
+   width: 100vw;
+   height: 6vh;
+   background-color: #926482;
     color: rgb(234, 235, 210);
     margin: 0%;
-    position:relative;
+    position:fixed;
     padding: 0 1rem;
     border:2px outset rgb(197, 135, 171);
     /* font-style: italic; */
@@ -31,41 +34,6 @@
     height: auto; */
     
     
-}
-
-.btnB{
-    width: 10vw;
-    height: 6vh;
-    border-radius: 0.3rem;
-    background-color: #926482;
-    border:2px groove rgb(247, 239, 239);
-    cursor: pointer;
-    color: rgb(234, 235, 210);
-    font-weight: bold;
-    margin-top: 5px;
-    position:absolute;
-    left: 15%;
-    font-size: medium;
-    text-align: center;
-    
-}
-
-.btnB:hover{
-  width: 7vw;
-  height: 8vh;
-  transition: 0.6s;
-}
-
-.input{
-  background-color: rgb(196, 189, 196);
-  border-radius: 0.3rem;
-  border:groove beige;
-  height: 6.5vh;
-  left: 5%;
-  margin-left: 1%;
-  color: rgb(114, 44, 105);
-  font-weight: bold;
-  margin-top: 5px;
 }
 
 .btnC{
@@ -77,11 +45,12 @@
   cursor: pointer;
   color: rgb(234, 235, 210);
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: -55px;
   position:absolute;
-  left: 27%;
+  left: 22%;
   font-size: medium;
   text-align:center;
+  
   /* text-decoration: underline; */
   
 }
@@ -90,6 +59,8 @@
   height: 8vh;
   transition: 0.6s;
 }
+
+
 .ordenar{
   width: 9vw;
   height: 6vh;
@@ -98,7 +69,7 @@
   border:2px groove rgb(247, 239, 239);
   color: rgb(114, 44, 105);
   font-weight: bold;
-  margin-top: 5px;
+  /* margin-top: -90 px; */
   position:relative;
   left: 60%;
   font-size: small;
@@ -114,5 +85,5 @@
   
 }
 .Home-link {
-    color: #e6ebec;
+    color: #d668be;
   } 

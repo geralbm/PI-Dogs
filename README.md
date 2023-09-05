@@ -84,7 +84,7 @@ La idea de este proyecto es construir una aplicación web a partir de la API [**
 -  Buscar perros.
 -  Visualizar la información de los perros.
 -  Filtrarlos.
--  Ordenarlos.
+-  Ordenarlos.  
 -  Crear nuevos perros.
 
 ⚠️ Para las funcionalidades de filtrado y ordenamiento NO se puede utilizar los endpoints de la API externa que ya devuelven los resultados filtrados u ordenados.

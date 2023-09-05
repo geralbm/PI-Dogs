@@ -1,0 +1,36 @@
+
+.btnB{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 0.3rem;
+    background-color: #926482;
+    border:2px groove rgb(247, 239, 239);
+    cursor: pointer;
+    color: rgb(234, 235, 210);
+    font-weight: bold;
+    margin-top: 65px;
+    position:absolute;
+    left: 11%;
+    font-size: medium;
+    text-align: center;
+    
+  }
+  
+  .btnB:hover{
+    width: 7vw;
+    height: 8vh;
+    transition: 0.6s;
+  }
+  
+  .input{
+    background-color: rgb(196, 189, 196);
+    border-radius: 0.3rem;
+    border:groove beige;
+    height: 6vh;
+    left: 5%;
+    margin-left: 1%;
+    color: rgb(114, 44, 105);
+    font-weight: bold;
+    margin-top: 65px;
+  }
+  
